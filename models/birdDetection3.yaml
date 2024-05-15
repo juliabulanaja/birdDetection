@@ -1,0 +1,14 @@
+names:
+- Aviation
+- LandTransport
+- Person
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: bird-igrn3
+  url: https://universe.roboflow.com/ds3/bird-igrn3/dataset/3
+  version: 3
+  workspace: ds3
+test: birdDetection_yolo5/test/images
+train: birdDetection_yolo5/train/images
+val: birdDetection_yolo5/valid/images

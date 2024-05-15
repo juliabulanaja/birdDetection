@@ -1,0 +1,17 @@
+test: birdDetection_yolo8/test/images
+train: birdDetection_yolo8/train/images
+val: birdDetection_yolo8/valid/images
+
+nc: 3
+names: ['Aviation', 'LandTransport', 'Person']
+
+roboflow:
+  workspace: ds3
+  project: birddetection-ztgke
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ds3/birddetection-ztgke/dataset/3
+
+test: birdDetection_yolo5/test/images
+train: birdDetection_yolo5/train/images
+val: birdDetection_yolo5/valid/images
